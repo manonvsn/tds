@@ -1,3 +1,36 @@
+# td1 : Use Basic Linux commands
+
+exercice 1
+``` 
+1) cd /
+2) ls -l
+3) pwd
+4) mkdir test
+5) cd /home
+6) cd ~
+7) cd ..
+9) cd home
+10) mkdir test
+11) cd test
+11)pwd
+``` 
+
+Exercice 2
+``` 
+1) cd ~
+2) pwd
+3)mkdir linux_ex1
+4)cd linux_ex1
+5) > manon_voisin.txt
+6) mkdir notes
+7)mv manon_voisin.txt notes/
+8)mv notes/manon_voisin.txt notes/manon_voisin_2023.txt
+9)cp -r notes notes_2022
+10)rm -rv notes
+
+```
+
+
 # td2
 
 exercice 1
