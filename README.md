@@ -181,18 +181,23 @@ Exercice 1
 ``` 
 1) git --version
 2) git config --global user.name "manon"
-git config --global user.email "m.voisin232@gmail.com"
-
-3) pwd
-4) mkdir test
-5) cd /home
-6) cd ~
-7) cd ..
-9) cd home
-10) mkdir test
-11) cd test
-11)pwd
+git config --global user.email "manon.voisin@edu.ece.fr
+3) git config --list
 ```
-
+Exercice 2
+``` 
+1) mkdir repo
+cd repo
+git init
+2) ls -a
+3) git status
+4) echo "# test repository" > readme.md
+5)git status
+6)git add readme.md
+7)git status
+8)git commit -m "Add readme.md file"
+9)git status
+10)git log
+```
 
 
