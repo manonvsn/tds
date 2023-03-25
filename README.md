@@ -1,8 +1,8 @@
-# td1
+# td2
 
-#  td 3
 
-# exercice 1
+
+exercice 1
 ``` 
 Question 1:
 ls -l
