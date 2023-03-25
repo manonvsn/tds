@@ -1,6 +1,6 @@
-# td1 : Use Basic Linux commands
+# TD1.2 : Use Basic Linux commands
 
-exercice 1
+Exercice 1
 ``` 
 1) cd /
 2) ls -l
@@ -96,6 +96,49 @@ Exercice 4.4
 20)tmux ls
 
 ```
+
+# TD1.2 : Fundamental Linux functionalities
+
+Exercice 1
+
+```
+1) sudo apt update && sudo apt upgrade
+
+2)uname -a
+top
+htop
+nproc
+lscpu
+df -h
+mount
+lsusb
+hostname
+```
+
+Exercice 2
+
+```
+1) x="piri pimpin"
+2) echo $x
+3) x=$x" piri pimpon"
+4) mkdir my_programs
+cd my_programs
+5) echo "pilou pilou" > pilou.sh
+6) ./pilou.sh
+7)chmod +x pilou.sh
+9) echo $PATH
+10)export PATH=$PATH:$(pwd)
+12)cd ~
+12)pilou
+13)nano .profiles
+export PATH=$PATH:/home/my_programs/pilou.sh
+```
+
+
+
+
+
+
 
 # td2
 
