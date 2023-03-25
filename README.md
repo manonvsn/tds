@@ -29,7 +29,36 @@ Exercice 2
 10)rm -rv notes
 
 ```
+Exercice 3
 
+``` 
+1) nano linux_ex_1/script_1.sh
+2)echo "Script running please wait ..."
+echo "Done."
+3) ctrl x
+4) cat linux_ex_1/script_1.sh
+5) source linux_ex_1/script_1.sh
+``` 
+
+Exercice 4.1
+
+```
+1) echo "blabla" > linux_ex_1/credentials
+cat linux_ex_1/credentials
+ls -l linux_ex_1/credentials
+
+2) chmod u-w linux_ex_1/credentials
+ls -l linux_ex_1/credentials
+nano linux_ex_1/credentials
+cat linux_ex_1/credentials
+
+3)chmod a+rw linux_ex_1/credentials
+```
+```
+1) chmod a+x linux_ex_1/credentials
+2) chmod a-r linux_ex_1/credentials
+3)chmod a+rwx linux_ex_1/credentials
+```
 
 # td2
 
