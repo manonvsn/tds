@@ -192,12 +192,57 @@ git init
 2) ls -a
 3) git status
 4) echo "# test repository" > readme.md
-5)git status
-6)git add readme.md
-7)git status
-8)git commit -m "Add readme.md file"
-9)git status
-10)git log
+5) git status
+6) git add readme.md
+7) git status
+8) git commit -m "Add readme.md file"
+9) git status
+10) git log
+```
+
+Exercice 3
+``` 
+1) > main.py
+functions.py
+2) git status
+3) git add main.py
+4) git status
+5) git commit -m "Add main.py file"
+6) git add functions.py
+git commit -m "Add functions.py file"
+9) git log
+```
+Exercice 4
+``` 
+1) > requirements.txt
+> .gitignore
+> .private
+2) git status
+3) git add .
+5) git commit -m "Add 3 files"
+7) git log --oneline
+```
+Exercice 5
+``` 
+1) > temp.ipynb
+2) git status
+3) echo "temp.ipynb" >> .gitignore
+5) > temp.aux
+> temp.log
+7) echo "temp*" >> .gitignore
+9) echo ".private/" >> .git/info/exclude
+```
+
+Exercice 6
+``` 
+1) echo "# My Test Repository" > readme.md
+2) git add readme.md
+3) git diff HEAD
+4) git commit -m "Add description to readme.md"
+5) git diff HEAD~1 HEAD
+6) git diff HEAD~1
+7)nano readme.md
+8)git diff HEAD
 ```
 
 
