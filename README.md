@@ -59,7 +59,24 @@ cat linux_ex_1/credentials
 2) chmod a-r linux_ex_1/credentials
 3)chmod a+rwx linux_ex_1/credentials
 ```
+Exercice 4.2
 
+```
+1)cd /
+
+2) sudo nano .private_file
+sudo cat .private_file
+sudo ls -la /
+
+3)nano .private_file
+cat .private_file
+
+4)sudo nano .private_file
+sudo cat .private_file
+
+5) sudo chmod a+rwx .private_file
+
+```
 # td2
 
 exercice 1
