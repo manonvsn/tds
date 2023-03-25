@@ -77,6 +77,26 @@ sudo cat .private_file
 5) sudo chmod a+rwx .private_file
 
 ```
+
+Exercice 4.4
+
+```
+1) sudo apt update
+2) sudo apt upgrade
+3) sudo apt install cmatrix
+4) cmatrix
+6) sudo apt install tmux
+7) tmux
+11)tmux new-session -s session1
+14) tmux ls
+15)tmux attach-session -t session0
+17)tmux attach-session -t session1
+18)tmux ls
+19)tmux kill-server
+20)tmux ls
+
+```
+
 # td2
 
 exercice 1
