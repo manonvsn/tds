@@ -133,14 +133,7 @@ cd my_programs
 13)nano .profiles
 export PATH=$PATH:/home/my_programs/pilou.sh
 ```
-
-
-
-
-
-
-
-# td2
+# TD2.1 : Linux Grep
 
 exercice 1
 ``` 
@@ -181,4 +174,25 @@ cat cyberattacks.txt | grep -A1 ’mw-content-text’ | grep -v ’mw-content-t
 ```
 6) grep -oP '<title>\K.*(?= - Wikipedia</title>)' cyberattacks.txt
 ```
+
+# TD 3: Git Local
+
+Exercice 1
+``` 
+1) git --version
+2) git config --global user.name "manon"
+git config --global user.email "m.voisin232@gmail.com"
+
+3) pwd
+4) mkdir test
+5) cd /home
+6) cd ~
+7) cd ..
+9) cd home
+10) mkdir test
+11) cd test
+11)pwd
+```
+
+
 
