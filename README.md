@@ -4,6 +4,7 @@ exercice 1
 ``` 
 1) ls -l /
 ```
+```
 2) ls-l / | grep bin
 ```
 
